@@ -1,0 +1,22 @@
+.titulo{
+    color: aqua;
+    text-align: center ;
+    background-color: gray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant:unset;
+}
+
+body{
+    background-color: beige;
+    padding-left: 30px;
+    width: 650px;
+    margin: auto;
+}
+
+h3{
+    color: red;
+    background-color: lightcoral;
+    font-size: 30px;
+    border-bottom: solid 3px rebeccapurple;
+    padding-left: 10px;
+}

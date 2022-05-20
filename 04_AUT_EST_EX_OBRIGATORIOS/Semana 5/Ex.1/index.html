@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio semana 5</title>
+    <script>
+        function resultado() {
+            var numero1 = parseInt(document.getElementById("var1").value);
+            var numero2 = parseInt(document.getElementById("var2").value);
+            var soma = (numero1 + numero2)
+            var subtração = numero1 - numero2
+            var multiplicação = numero1 * numero2
+            var divisão = numero1 / numero2
+            var resto = numero1 % numero2
+
+            document.getElementById("soma").innerHTML ="Soma: " + soma
+            document.getElementById("soma").innerHTML ="Subtração: " + subtração
+            document.getElementById("soma").innerHTML ="Soma: " + multiplicação
+            document.getElementById("soma").innerHTML ="Divisão: " + divisão
+            document.getElementById("soma").innerHTML ="Resto: " + resto
+
+        }
+    </script>
+</head>
+
+<body>
+    <h1> Exercicio Semana 5</h1>
+    <input id="1" type="número" placeholder="número 1"> <input id="2" type="número" placeholder="número 2">
+    <button onclick="resultado()">Calcular</button>
+    <br>
+    <p id="soma">soma:</p>
+    <p id="sub">subitracao:</p>
+    <p id="mult">multiplicação:</p>
+    <p id="duiv">divisao</p>
+    <p id="resto">resto</p>
+</body>
+
+</html>
