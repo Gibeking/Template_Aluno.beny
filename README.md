@@ -5,4 +5,4 @@ Minhas entregas estão definidas aqui:
 ## Obrigatórios
 <a href="https://github.com/Intelihub/Template_Aluno/blob/main/03_EX_OBRIGATORIOS/Coloque%20aqui%20entregas%20de%20exerc%C3%ADcios%20obrigat%C3%B3rios.rtf"> 19/04/2022 - Entrega 1 </a>
 ## Semana 7
-<a href="https://github.com/Intelihub/Template_Aluno/blob/main/03_EX_OBRIGATORIOS/Coloque%20aqui%20entregas%20de%20exerc%C3%ADcios%20obrigat%C3%B3rios.rtf"> 05/06/2022 - Entrega 1 </a> - Entrega 7 </a>
+<a href="https://github.com/Intelihub/Template_Aluno/blob/main/03_EX_OBRIGATORIOS/Coloque%20aqui%20entregas%20de%20exerc%C3%ADcios%20obrigat%C3%B3rios.rtf"> 05/06/2022 - Entrega 7 </a> 
