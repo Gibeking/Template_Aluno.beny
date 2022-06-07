@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+<div>
+    <label for=""> PESSOAS: </label>
+    <input type="number" id="pessoas">   
+    <select id="periodo">
+        <option id="not">noturno</option>
+        <option id="di">diruno</option>
+    </select>
+</div>
+
+<button id="calcular" onclick="preco()"> calcular </button>
+
+</body>
+
+<script>
+
+function preco ()
+{
+
+var quantidade = document.getElementById("pessoas").value
+var periodo = document.getElementById("periodo").value
+var resposta = document.getElementById("resposta")
+var not = String(document.getElementById("not"))
+var di = String(document.getElementById("di"))
+
+
+if (periodo == not && quantidade > 50 ){
+ resposta = (quantidade * 100)*0.8
+}
+else if (periodo == not && quantidade <= 50 ){
+ resposta = quantidade * 100 
+}
+ else if(periodo == di && quantidade > 50 ){
+ resposta = (quantidade * 200)*0.6
+}
+else{
+ resposta = quantidade * 200
+}
+    console.log(resposta)
+}
+
+
+
+
+
+
+
+</script>
+
+</html>
