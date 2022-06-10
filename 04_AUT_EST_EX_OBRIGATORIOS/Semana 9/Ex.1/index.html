@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+<div id="titulo">
+<p>Exercicio 1</p>
+</div>
+
+<div id="input">
+<input type="number" max="999" min="100"  id="numero" placeholder="digite numero de 3 digitos" style="height: 20px; width: 175px;" >
+</div>
+
+<div id="enter">
+<button id="calcular" onclick="par_impar()">calcular</button>
+</div>
+    
+</body>
+<script>
+function par_impar (){
+var numero = parseInt(document.getElementById("numero").value);
+var centena;
+
+ centena = Math. trunc(numero / 100  )     
+
+if(centena % 2 == 0) {
+    console.log("numero par.");
+}
+else {
+    console.log("numero impar.");
+}
+
+
+}
+</script>
+</html>
