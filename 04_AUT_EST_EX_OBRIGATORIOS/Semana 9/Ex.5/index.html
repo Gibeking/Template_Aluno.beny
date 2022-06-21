@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h3>Digite um intervalo de numeros positivos para encontrar seus numeros primos</h3><br><br>
+
+        <label>Primeiro Número:</label>
+        <input id="n1" type="text"><br><br>
+        <label>Segundo Número:</label>
+        <input id="n2" type="text"><br><br>
+        <input type="button" onclick="numerosPrimo()" value="Encontar os números primos dentro do intervalo">
+        <p id="numerosPrimos"></p>
+</body>
+<script>
+    function numerosPrimo(){
+    var i = document.getElementById("n1").value;
+    var limite = document.getElementById("n2").value;
+    var lista = [];
+
+    while(i <= limite){
+        let primo = true;
+        i++
+        for(let divisor = 2; divisor < i; divisor++){
+            if(i % divisor == 0){
+                primo = false;
+                break;    
+            }    
+        }
+
+        if (primo){
+            lista.push(i);
+        } 
+
+        document.getElementById("numerosPrimos").innerHTML = "Os números primos desse intervalo são " + lista; 
+    }
+}
+</script>
+</html>

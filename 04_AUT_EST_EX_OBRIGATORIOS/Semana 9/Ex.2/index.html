@@ -6,17 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-////////////////////////////////////////////////
+
 <body>
-    
+<p>Exercicio 2</p>
+<input type="text" onclick="calcular()" id="numero">
 
-
-
+                        
 </body>
-////////////////////////////////////////////////
-<script>
 
+<script>
+function calcular() {
+
+var numero = document.getElementById("numero").value
+var algarismo = numero.split("")
+//dividimos algarsimos com a funcao split//
+var soma = 0
+for (var i = 0; i < algarismo.length; i++) {
+    soma += parseInt(algarismo[i]);
+    //somamos os algarismos//
+}
+console.log("A soma dos algarismos é " + soma + "!")
+
+}
 
 </script>
-////////////////////////////////////////////////
+
 </html>
