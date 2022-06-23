@@ -7,5 +7,5 @@ Minhas entregas estão definidas aqui:
 ## Semana 7
 <a href="https://github.com/Gibeking/Template_Aluno.beny/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%207"> 05/06/2022 - Entrega 7 </a> 
 
- Semana 9
-<a href="https://github.com/Gibeking/Template_Aluno.beny/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%209##"> 19/06/2022 - Entrega 7 </a> 
+## Semana 9
+<a href="https://github.com/Gibeking/Template_Aluno.beny/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%209##"> 19/06/2022 - Entrega 9 </a> 
